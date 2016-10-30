@@ -1,0 +1,89 @@
+/** BODY **/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #9fc5e8;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/** END BODY **/
+
+/** HEADER **/
+#header-nav {
+  background-color: #fff000;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list a:hover {
+  background: #808080;
+}
+
+#nav-list a#chicken-nav {
+  color: #d9732f;
+}
+
+#nav-list a#beef-nav {
+  color: #26b21d;
+}
+
+#nav-list a#sushi-nav {
+  color: #d862b0;
+}
+/** END HEADER **/
+
+/** MAIN CONTENT **/
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 175%;
+}
+
+.menu-content h3 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 125%;
+}
+
+.menu-content p {
+  padding: 0 10px 10px;
+}
+
+#chicken-menu {
+  background-color: #d9732f;
+}
+
+#beef-menu {
+  background-color: #26b21d;
+}
+
+#sushi-menu {
+  background-color: #d862b0;
+}
+/** END MAIN CONTENT **/
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container-fluid {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  #collapsable-nav {
+    background-color: #00ffff;
+  }
+}
